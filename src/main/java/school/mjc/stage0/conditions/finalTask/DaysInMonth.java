@@ -2,13 +2,11 @@ package school.mjc.stage0.conditions.finalTask;
 
 public class DaysInMonth {
     public void printDays(int year, int month) {
-
         if (year < 1 || month < 1 || month > 12) {
             System.out.println("invalid date");
             return;
         }
         boolean isLeapYear = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
-
         int daysInMonth;
         switch (month) {
             case 1: // January
@@ -33,8 +31,6 @@ public class DaysInMonth {
                 daysInMonth = -1; // This will never happen due to validation
                 break;
         }
-
-        // Print the result
         System.out.println(daysInMonth);
     }
 }

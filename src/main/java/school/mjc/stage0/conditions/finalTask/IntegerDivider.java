@@ -6,19 +6,12 @@ public class IntegerDivider {
             System.out.println("division by zero");
             return;
         }
-
-        // Perform integer division
         int result = dividend / divider;
-
-        // Multiply the result by the divider
         int multipliedResult = result * divider;
-
-        // Check if the multiplied result equals the dividend
         if (multipliedResult == dividend) {
             System.out.println("can be divided completely");
         } else {
             System.out.println("cannot be divided completely");
         }
-
     }
 }

@@ -6,8 +6,6 @@ public class CoordinatePane {
             System.out.println("zero");
             return;
         }
-
-        // Determine the quadrant
         if (x > 0 && y > 0) {
             System.out.println("first");
         } else if (x < 0 && y > 0) {
@@ -18,5 +16,5 @@ public class CoordinatePane {
             System.out.println("fourth");
         }
     }
-    }
 }
+
